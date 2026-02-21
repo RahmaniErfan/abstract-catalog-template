@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-02-21T11:18:48Z",
+  "categories": [
+    "Academic",
+    "Project Management",
+    "Personal Wiki",
+    "Zettelkasten",
+    "General"
+  ],
+  "libraries": [
+    {
+      "id": "abstract-library-demo",
+      "name": "Abstract Library Demo",
+      "author": "RahmaniErfan",
+      "description": "A demo library showing the power of virtual hierarchies.",
+      "category": "General",
+      "repository": "https://github.com/RahmaniErfan/abstract-library-demo",
+      "lastVersion": "1.0.0",
+      "isVerified": true,
+      "stars": 100
+    }
+  ],
+  "blacklist": []
+}
