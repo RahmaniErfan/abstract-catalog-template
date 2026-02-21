@@ -1,4 +1,4 @@
-# Curator's Guide 👑
+# Curator's Guide
 
 Thank you for wanting to contribute to the Abstract Folder ecosystem! This catalog is the central index for all community-contributed libraries.
 
@@ -16,6 +16,7 @@ To be accepted into the catalog, your library must meet the following criteria:
 - **Safety**: No malicious scripts or obstructive content.
 - **Documentation**: A clear `README.md` explaining the vault structure and usage.
 - **Preview**: Recommended to have an `assets/preview.png` for the catalog grid.
+- **Support**: Optional `fundingUrl` to link to your sponsorship page.
 
 ## Safety & Vetting
 

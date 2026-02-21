@@ -4,10 +4,10 @@ const path = require('path');
 const catalogPath = path.join(__dirname, '../catalog.json');
 
 function validate() {
-  console.log('🚀 Starting Catalog Validation...');
+  console.log('Starting Catalog Validation...');
 
   if (!fs.existsSync(catalogPath)) {
-    console.error('❌ Error: catalog.json not found!');
+    console.error('Error: catalog.json not found!');
     process.exit(1);
   }
 
@@ -15,7 +15,7 @@ function validate() {
   try {
     catalog = JSON.parse(fs.readFileSync(catalogPath, 'utf8'));
   } catch (e) {
-    console.error('❌ Error: Failed to parse catalog.json as JSON!');
+    console.error('Error: Failed to parse catalog.json as JSON!');
     console.error(e.message);
     process.exit(1);
   }
@@ -54,6 +54,10 @@ function validate() {
       }
     });
 
+    if (lib.fundingUrl && !lib.fundingUrl.startsWith('https://')) {
+      errors.push(`${context}: Invalid fundingUrl: ${lib.fundingUrl}`);
+    }
+
     if (typeof lib.isVerified !== 'boolean') {
       errors.push(`${context}: Field "isVerified" must be a boolean`);
     }
@@ -65,11 +69,11 @@ function validate() {
   }
 
   if (errors.length > 0) {
-    console.error(`\n❌ Validation failed with ${errors.length} errors:`);
+    console.error(`\nValidation failed with ${errors.length} errors:`);
     errors.forEach(err => console.error(`  - ${err}`));
     process.exit(1);
   } else {
-    console.log('\n✅ Validation successful! catalog.json is robust and scalable.');
+    console.log('\nValidation successful! catalog.json is robust and scalable.');
   }
 }
 

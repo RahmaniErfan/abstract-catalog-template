@@ -24,7 +24,9 @@
       "// repository": "The full HTTPS URL for the library's GitHub repository.",
       "repository": "https://github.com/RahmaniErfan/abstract-library-demo",
       "lastVersion": "1.0.0",
-      "isVerified": true
+      "isVerified": true,
+      "// fundingUrl": "Optional: Link to your GitHub Sponsors, Patreon, or Buy Me a Coffee page.",
+      "fundingUrl": "https://github.com/sponsors/RahmaniErfan"
     }
   ],
   "// blacklist": "Array of repository URLs or author IDs blocked for security violations.",
