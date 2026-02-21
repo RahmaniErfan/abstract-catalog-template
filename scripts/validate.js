@@ -57,10 +57,6 @@ function validate() {
     if (typeof lib.isVerified !== 'boolean') {
       errors.push(`${context}: Field "isVerified" must be a boolean`);
     }
-
-    if (typeof lib.stars !== 'number') {
-      errors.push(`${context}: Field "stars" must be a number`);
-    }
   });
 
   // 4. Blacklist Check

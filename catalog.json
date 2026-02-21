@@ -1,6 +1,9 @@
 {
+  "// version": "The schema version of this catalog index.",
   "version": "1.0.0",
+  "// lastUpdated": "ISO 8601 timestamp of the last manual or automated update.",
   "lastUpdated": "2026-02-21T11:18:48Z",
+  "// categories": "Master list of allowed categories. These are displayed in the plugin's Catalog view",
   "categories": [
     "Academic",
     "Project Management",
@@ -8,18 +11,22 @@
     "Zettelkasten",
     "General"
   ],
+  "// libraries": "List of community-contributed libraries.",
   "libraries": [
     {
+      "// id": "A unique, URL-friendly slug for the library.",
       "id": "abstract-library-demo",
       "name": "Abstract Library Demo",
+      "// author": "The GitHub username of the primary maintainer.",
       "author": "RahmaniErfan",
       "description": "A demo library showing the power of virtual hierarchies.",
       "category": "General",
+      "// repository": "The full HTTPS URL for the library's GitHub repository.",
       "repository": "https://github.com/RahmaniErfan/abstract-library-demo",
       "lastVersion": "1.0.0",
-      "isVerified": true,
-      "stars": 100
+      "isVerified": true
     }
   ],
+  "// blacklist": "Array of repository URLs or author IDs blocked for security violations.",
   "blacklist": []
 }
