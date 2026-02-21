@@ -26,7 +26,10 @@
       "lastVersion": "1.0.0",
       "isVerified": true,
       "// fundingUrl": "Optional: Link to your GitHub Sponsors, Patreon, or Buy Me a Coffee page.",
-      "fundingUrl": "https://github.com/sponsors/RahmaniErfan"
+      "fundingUrl": "https://github.com/sponsors/RahmaniErfan",
+      "parentProperty": "parent",
+      "childrenProperty": "children",
+      "forceStandardProperties": false
     }
   ],
   "// blacklist": "Array of repository URLs or author IDs blocked for security violations.",
