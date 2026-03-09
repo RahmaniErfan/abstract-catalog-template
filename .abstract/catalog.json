@@ -5,19 +5,13 @@
   "author": "REPLACE_ME",
   "description": "A catalog of abstract libraries.",
   "version": "1.0.0",
-  "categories": [
-    "Academic",
-    "Project Management",
-    "Personal Wiki",
-    "Zettelkasten",
-    "General"
-  ],
   "libraries": [
     {
       "id": "REPLACE_ME",
       "name": "REPLACE_ME",
       "author": "REPLACE_ME",
       "description": "REPLACE_ME",
+      "category": "General",
       "repo": "YourUsername/library-repo-name"
     }
   ],
