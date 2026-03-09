@@ -1,0 +1,26 @@
+{
+  "_comment": "This catalog acts as a registry. The Abstract Folder plugin will fetch full details from each library's repository slug.",
+  "id": "REPLACE_ME",
+  "name": "My New Catalog",
+  "author": "REPLACE_ME",
+  "description": "A catalog of abstract libraries.",
+  "version": "1.0.0",
+  "categories": [
+    "Academic",
+    "Project Management",
+    "Personal Wiki",
+    "Zettelkasten",
+    "General"
+  ],
+  "libraries": [
+    {
+      "id": "REPLACE_ME",
+      "name": "REPLACE_ME",
+      "author": "REPLACE_ME",
+      "description": "REPLACE_ME",
+      "repo": "YourUsername/library-repo-name"
+    }
+  ],
+  "blacklist": [],
+  "createdAt": "REPLACE_ME"
+}
